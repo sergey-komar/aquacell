@@ -1,0 +1,78 @@
+.header{
+    background: url('../images/home/header-home-bg.jpg') no-repeat;
+    background-size: cover;
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9.5rem;
+}
+.menu__list {
+    display: flex;
+}
+.menu__list-item + .menu__list-item{
+    margin-left: 2.5rem;
+}
+.menu__list-link {
+    padding-bottom: 1rem;
+    color: #fff;
+}
+.menu__list-link.active{
+    border-bottom: 1px solid #3d80d1;
+    color: #3d80d1;
+}
+.header__contact {
+    margin-top: 5rem;
+}
+.header__contact-phone {
+    display: block;
+    font-size: 2.7rem;
+    text-align: center;
+    color: #fff;
+}
+.header__contact-btn {
+    width: 21.3rem;
+    height: 6.5rem;
+    border: none;
+    transform: translateY(2.5rem);
+    color: #fff; 
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: rgb(61, 128, 209);
+}
+
+//HEADING
+.home-heading {
+    position: relative;
+    background: url('../images/home/home-bg.jpg') no-repeat center;
+    background-size: cover;
+    min-height: calc(100vh - 9.5rem);
+
+}
+
+.home-heading__title {
+    padding-top: 20rem;
+    margin-left: 9rem;
+    max-width: 89rem;
+    font-size: 6rem;
+    font-weight: 100;
+    color: #a5aabd;
+}
+.home-heading__title span{
+    font-weight: 700;
+}
+.home-heading__scroll {
+   margin-top: 10rem;
+}
+.home-heading__scroll-title {
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    margin-left: 1rem;
+    color: #a5aabd;
+}
+.home-heading__scroll-btn {
+    background-color: transparent;
+    border: none;
+}
