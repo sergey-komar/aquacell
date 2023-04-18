@@ -1,0 +1,98 @@
+.footer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: url('../images/home/footer-bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.footer__top {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 4.5rem;
+}
+.footer__menu {
+    width: 24rem;
+}
+.footer__menu--one{
+    width: 15rem;
+}
+.footer__top-title {
+    margin-bottom: 3.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $blue;
+    text-transform: uppercase;
+    line-height: 1.2;     
+}
+.footer__menu-item {
+    margin-bottom: 3.5rem;  
+}
+.footer__menu-link {
+    font-size: 1.6rem;
+    color: $white;
+}
+.footer__center {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.09);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+}
+.footer__center-contact {
+    font-size: 2.1rem;
+    color: $white;
+    font-weight: 100;
+    line-height: 1.2; 
+}
+.footer__center-contact--address {
+    position: relative;
+    width: 30rem;
+    margin-left: 5rem;   
+}
+.footer__center-contact--email,
+.footer__center-contact--phone {
+    position: relative;
+}
+.footer__center-contact--address::before,
+.footer__center-contact--email::before,
+.footer__center-contact--phone::before{
+    position: absolute;
+    content: '';
+    width: 5rem;
+    height: 5rem;
+    left: -5rem;
+}
+.footer__center-contact--address::before{
+    background: url('../images/home/footer-address.png') no-repeat center;
+   
+}
+.footer__center-contact--email::before{
+    background: url('../images/home/footer-email.png') no-repeat center;
+    top: -1rem;
+}
+.footer__center-contact--phone::before {
+    background: url('../images/home/footer-phone.png') no-repeat center;
+    top: -1rem;
+}
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    color: $white;
+}
+.footer__bottom-wrapper{
+    display: flex;
+    align-items: center;
+}
+.footer__bottom-copyright {
+    margin-left: 4rem;
+}
+.footer__bottom-text {
+    font-size: 1.4rem;
+    width: 39rem;
+}
+.footer__bottom-text span{
+    color: $blue;
+}
