@@ -1,0 +1,90 @@
+.contacts{
+    position: relative;
+}
+.contacts::before{
+    position: absolute;
+    content: '';
+    width: 110rem;
+    height: 25rem;
+    background: url('../images/about/about-logo.png') no-repeat;
+    left: 42%;
+    top: 2%;
+}
+.container {
+}
+.contacts__title {
+    padding-top: 6rem;
+    margin-bottom: 5rem;
+}
+.title {
+    
+}
+.contacts__text {
+    max-width: 53rem;
+    margin-bottom: 4rem;
+}
+.contacts__text span{
+    font-weight: 700;
+}
+.contacts__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+.form__textarea{
+    margin-bottom: 3rem;
+    display: block;
+    max-width: 100rem;
+    width: 100%;
+    height: 50rem;
+    padding: 3rem;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border-width: 1px;
+}
+.form__textarea::placeholder{
+    font-size: 2.7rem;
+    color: rgba(0, 0, 0, 0.588);
+}
+.footer__center-contact {
+}
+.footer__center-contact--address {
+}
+.contacts__address,
+.contacts__email,
+.contacts__phone {
+    width: 36rem;
+    display: block;
+    color: $black;
+}
+.footer__center-contact--email {
+}
+.contacts__email {
+}
+.footer__center-contact--phone {
+}
+.contacts__phone {
+}
+.services-form {
+}
+.services-form__block {
+}
+.services-form__block-title {
+}
+.services-form__block-text {
+}
+.form {
+}
+.form__input {
+}
+.form__btn {
+}
+.form__inner-checkbox {
+}
+.form__checkbox {
+}
+.form__text {
+}

@@ -81,8 +81,8 @@
 .home-heading::after{
     position: absolute;
     content: '';
-    width: 90rem;
-    height: 15rem;
+    width: 94rem;
+    height: 22rem;
     background: url('../images/home/logo-bg.png') no-repeat;
     right: 0;
     top: 60%;
@@ -142,6 +142,7 @@
     display: flex;
     flex-direction: column;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .catalog__img-title{
     margin-top: auto;
@@ -285,6 +286,7 @@ li.slick-active button{
     font-weight: 100;
     background-color: $blue;
 }
+
 .blog-home__item-calendar::before{
     position: absolute;
     content: '';
