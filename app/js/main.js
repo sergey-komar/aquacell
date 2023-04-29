@@ -33,6 +33,14 @@ $('.blog-home__slider-inner').slick({
 })
 
 
+
+$('.home-heading__scroll-btn').on('click',function(){
+    $('html, body').animate({scrollTop: $(document).height() - $(window).height()}, 600);
+    return false;
+});
+
+
+
 });
 
 window.addEventListener('DOMContentLoaded', () => {

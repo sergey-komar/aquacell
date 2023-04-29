@@ -1,0 +1,99 @@
+.instalation{
+    position: relative;
+}
+.instalation::before{
+    position: absolute;
+    content: '';
+    width: 110rem;
+    height: 25rem;
+    background: url('../images/about/about-logo.png') no-repeat;
+    left: 40%;
+    top: 0;
+}
+
+.instalation__title {
+    padding-top: 7rem;
+    margin-bottom: 5rem;
+
+}
+.instalation-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+.instalation-block__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.instalation-block__content{
+    max-width: 75rem;
+    
+}
+.instalation-block__img{
+    margin-left: 2rem;
+}
+.instalation-block__item:nth-child(2n) .instalation-block__img{
+    order: -1;
+    margin-left: 0;
+}
+.instalation-block__item:nth-child(2n) .instalation-block__content{
+    margin-left: 4rem;
+}
+.instalation-block__item-subtitle {
+    margin-bottom: .5rem;
+    font-weight: 700;
+    color: $blue;
+}
+.instalation-block__item-title {
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.instalation-block__list {
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+}
+.instalation-block__list-item {
+    margin-bottom: 1rem;
+    list-style: circle;
+}
+.instalation-block__list-item::marker{
+   color: $blue;
+}
+.instalation-block__item-text {
+    font-weight: 700;
+}
+.instalation-container__block {
+    padding: 6rem;
+    background-color: $blue;
+}
+.instalation-container__block-text {
+    font-size: 2rem;
+    line-height: 1.476;
+    color: $white;
+    font-weight: 700;
+}
+.instalation-box{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.instalation-box__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.instalation-box__item {
+    width: 17rem;
+}
+.instalation-box__item-img {
+    margin-bottom: 2rem;
+}
+.instalation-box__item-img img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.instalation-box__item-text {
+    color: $blue;
+    font-size: 1.6rem;
+    text-align: center;
+}

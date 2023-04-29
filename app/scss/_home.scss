@@ -322,9 +322,9 @@ li.slick-active button{
 .blog-home__item-link::after{
     position: absolute;
     content: '';
-    width: 5rem;
+    width: 2rem;
     height: 8rem;
     background: url('../images/home/arrows-item-blog.png') no-repeat;
-    right: -4rem;
+    right: -1rem;
     top: 3px;
 }
